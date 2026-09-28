@@ -39,10 +39,10 @@ export function Hero() {
           </p>
           <div className="mt-7 grid grid-cols-2 gap-3">
             {[
-              ["Detection latency", "< 4s"],
-              ["Incident workflows", "Automated"],
-              ["Multi-site visibility", "Unified"],
-              ["After-action reports", "One click"],
+              ["Detection", "Sensor + map layer"],
+              ["Incident workflows", "Score, assign, close"],
+              ["Multi-site visibility", "One command view"],
+              ["After-action reports", "Evidence package"],
             ].map(([k, v]) => (
               <div key={k} className="rounded-xl border border-slate-700/70 bg-slate-900/55 p-3">
                 <p className="text-xs uppercase tracking-[0.14em] text-slate-400">{k}</p>
@@ -50,6 +50,7 @@ export function Hero() {
               </div>
             ))}
           </div>
+          <p className="mt-4 text-xs text-slate-500">Capabilities of the command-center demo. Not live field measurements.</p>
         </div>
       </div>
     </section>

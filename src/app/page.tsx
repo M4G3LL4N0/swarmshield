@@ -38,6 +38,9 @@ export default function HomePage() {
         <DashboardPreview />
       </Section>
       <Section id="demo" kicker="Product Demo" title="Interactive Drone Threat Command Center">
+        <p className="mb-6 max-w-4xl text-sm leading-7 text-slate-400">
+          Walk the detect → score → coordinate → document loop in the command surface below. Sample tracks and sites are for product walkthrough only.
+        </p>
         <CommandCenter />
       </Section>
       <Section id="features" kicker="Features" title="Built for command confidence under pressure.">
